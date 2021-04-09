@@ -1,10 +1,10 @@
 
 body{
-    width: 1300px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
-
+    box-shadow: 8px 8px 12px #aaa;
 }
 
 header{
@@ -38,22 +38,24 @@ header{
 /* Début section 1*/
 #section1{
     background-color: #334D5C;
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex;
 }
 #section1>img{
     display: flex;
-    height: 200px;
-    width:200px
-
+    height: 150px;
+    width:150px;
     margin-left: 100px;
+    margin-top: 50px;
+
 }
 #section1>h1,h2{
     display: flex;
     justify-content:center;
     align-items:center;
     color: white;
+    font-family:'Ubuntu', sans-serif;
 }
 /*fin section 1*/
 
@@ -61,8 +63,32 @@ header{
 #section2{
     height: 500px;
     width: 100%;
+    display: flex;
 
 }
+
+#oeuf{
+    display: flex;
+
+    align-items:center;
+    margin-top: 250px;
+    margin-left: 80px;
+
+}
+
+#éclosion{
+    border: red solid;
+    background-color: #334D5C;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+}
+
+
 /*fin section 2*/
 
 /*début section 3*/
@@ -70,6 +96,17 @@ header{
     background-color: #EAE3D6;
     height: 150px;
     width: 100%;
+}
+#logosec3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width: 100%;
+}
+#section3>div>img{
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
 }
 /*fin section 3*/
 
