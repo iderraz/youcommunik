@@ -1,5 +1,6 @@
 
 body{
+    height: 100%;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -28,11 +29,12 @@ header{
     align-items:center;
     margin-right: 10px;
     width: 100%;
+   
 }
 
 
 #homeu{
-   
+   font-size: small;
     color: white;
 }
 /* Début section 1*/
@@ -41,6 +43,7 @@ header{
     height: 250px;
     width: 100%;
     display: flex;
+    position: relative;
 }
 #section1>img{
     display: flex;
@@ -50,12 +53,23 @@ header{
     margin-top: 50px;
 
 }
-#section1>h1,h2{
-    display: flex;
-    justify-content:center;
-    align-items:center;
+#section1>h1{
+   
+    position: absolute;
     color: white;
     font-family:'Ubuntu', sans-serif;
+    font-size:300%;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+
+#section1>p{
+    position: absolute;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-size:200%;
+    margin-top: 13%;
+    margin-left: 30%;
 }
 /*fin section 1*/
 
@@ -64,29 +78,44 @@ header{
     height: 500px;
     width: 100%;
     display: flex;
-
+    position: relative;
 }
-
 #oeuf{
     display: flex;
-
     align-items:center;
-    margin-top: 250px;
+    margin-top: 15%;
     margin-left: 80px;
 
 }
 
 #éclosion{
-    border: red solid;
     background-color: #334D5C;
-    height: 50px;
-    width: 150px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
+    height: 125px;
+    width: 320px;
     color: white;
     font-family:'Ubuntu', sans-serif;
+    position: absolute;
+    text-align:center;
+    margin-left: 42%;
+    margin-top: 5%;
+    font-size:200%;
 }
+#section2>p{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    font-family:'Ubuntu', sans-serif ;
+    color: black;
+    text-align:justify;
+    font-size:larger;
+    margin-left: 50% ;
+    margin-top: 20%;
+}
+
+
+
+
+
 
 
 /*fin section 2*/
@@ -96,6 +125,7 @@ header{
     background-color: #EAE3D6;
     height: 150px;
     width: 100%;
+    display: flex;
 }
 #logosec3{
     display: flex;
@@ -104,7 +134,7 @@ header{
     width: 100%;
 }
 #section3>div>img{
-    margin-top: 25px;
+  
     height: 100px;
     width: 100px;
 }
@@ -114,7 +144,40 @@ header{
 #section4{
     height: 500px;
     width: 100%;
+    display: flex;
+    position: relative;
 }
+#oeuf2{
+    display: flex;
+    align-items:center;
+    margin-top: 15%;
+    margin-left: 80px;
+}
+#arbre{
+    background-color: #334D5C;
+    height: 125px;
+    width: 320px;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    position: absolute;
+    text-align:center;
+    margin-left: 42%;
+    margin-top: 5%;
+    font-size:200%;
+}
+#section4>p{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    font-family:'Ubuntu', sans-serif ;
+    color: black;
+    text-align:justify;
+    font-size:larger;
+    margin-left: 50% ;
+    margin-top: 20%;
+}
+
+
 /*fin section 4*/
 
 
@@ -122,17 +185,79 @@ header{
 /*début section 5*/
 #section5{
     background-color: #EAE3D6;
-    height: 300px;
+    height: 400px;
     width: 100%;
+    display: flex;
+    position: relative;
 }
+
+#logosec5{
+    height: 150px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+#logosec5bas{
+    height: 150px;
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+    position: absolute;
+    justify-content: center;
+}
+
+#section5>div>img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
 /*fin section 5*/
 
 /*début section 6*/
 #section6{
     height: 500px;
     width: 100%;
+    display: flex;
+    position: relative;
+}
+#oeuf3{
+    display: flex;
+    align-items:center;
+    margin-top: 15%;
+    margin-left: 80px;
+}
+#envol{
+    background-color: #334D5C;
+    height: 125px;
+    width: 320px;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    position: absolute;
+    text-align:center;
+    margin-left: 42%;
+    margin-top: 5%;
+    font-size:200%;
+}
+#section6>p{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    font-family:'Ubuntu', sans-serif ;
+    color: black;
+    text-align:justify;
+    font-size:larger;
+    margin-left: 50% ;
+    margin-top: 20%;
 
 }
+
+
 /*début section 6*/
 
 /*début section 7*/
@@ -140,14 +265,51 @@ header{
     background-color: #EAE3D6;
     height: 150px;
     width: 100%;
+    display: flex;
+}
+#logosec7{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width: 100%;
+}
+#section7>div>img{
+  
+    height: 100px;
+    width: 100px;
 }
 /*début section 7*/
 
-/*début footer*/
-#footer{
-    height: 250px;
-    width: 100%;
+footer{
     background-color: #393A3B;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#footerp{
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
 }
 
+/* à retravailler
+footer>div>img{
+    height: 100px;
+    width: 100px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
 
