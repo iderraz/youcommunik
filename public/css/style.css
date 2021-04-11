@@ -10,7 +10,7 @@ body{
 
 header{
     background-color:#1A1A1D;
-    height: 100px;
+    height: 120px;
     width: 100%;
     position: static;
     display: flex;
@@ -25,18 +25,27 @@ header{
 }
 .deux{
     display: flex;
-    justify-content:flex-end;
-    align-items:center;
-    margin-right: 10px;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    margin-right: 200px;
     width: 100%;
-   
+}
+.deux>li{
+    text-align: center;
 }
 
-
-#homeu{
-   font-size: small;
+.texte{
     color: white;
+    margin-top: 2px;
+    text-align: center;
+    font-family:'Ubuntu', sans-serif;
 }
+
+header>div:last-of-type{
+    margin-right: 30px;
+}
+
+
 /* Début section 1*/
 #section1{
     background-color: #334D5C;
@@ -123,20 +132,31 @@ header{
 /*début section 3*/
 #section3{
     background-color: #EAE3D6;
-    height: 150px;
+    height: 200px;
     width: 100%;
-    display: flex;
+  
 }
-#logosec3{
+
+#section3>div>ul>li{
+    margin-top: 35px;
+    text-align: center;
+}
+#section3>div>ul{
     display: flex;
     justify-content:space-evenly;
     align-items:center;
     width: 100%;
+    height: 175px;
+    
 }
-#section3>div>img{
+#section3>div>ul>li>img{
   
     height: 100px;
     width: 100px;
+}
+
+#section3>div>ul>li>p{
+    font-family:'Ubuntu', sans-serif;
 }
 /*fin section 3*/
 
@@ -185,33 +205,34 @@ header{
 /*début section 5*/
 #section5{
     background-color: #EAE3D6;
-    height: 400px;
+    height: 325px;
     width: 100%;
-    display: flex;
-    position: relative;
 }
 
-#logosec5{
-    height: 150px;
+#section5>div>ul>li{
+    margin-top: 10%;
+    text-align: center;
+}
+#logosec5>ul{
+    height: 100px;
     display: flex;
     justify-content:space-evenly;
     width: 100%;
-    margin-top: 5%;
-    position: absolute;
+    align-items: center;
 }
-
-#logosec5bas{
-    height: 150px;
+#logosec5bas>ul{
+    height: 100px;
     display: flex;
     width: 100%;
-    margin-top: 20%;
-    position: absolute;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
-#section5>div>img{
+#section5>div>ul>li>img{
     height: 100px;
     width: 100px;
+}
+#section5>div>ul>li>p{
+    font-family:'Ubuntu', sans-serif ;
 }
 
 
@@ -263,41 +284,69 @@ header{
 /*début section 7*/
 #section7{
     background-color: #EAE3D6;
-    height: 150px;
+    height: 200px;
     width: 100%;
-    display: flex;
+    
 }
-#logosec7{
+#section7>div>ul{
     display: flex;
     justify-content:space-evenly;
     align-items:center;
     width: 100%;
+    height: 200px;
 }
-#section7>div>img{
-  
+#section7>div>ul>li>img{
     height: 100px;
     width: 100px;
+}
+
+#section7>div>ul>li{
+    text-align: center;
+}
+
+#section7>div>ul>li>p{
+    font-family:'Ubuntu', sans-serif ;
 }
 /*début section 7*/
 
 footer{
     background-color: #393A3B;
-    height: 500px;
+    height: 300px;
     width: 100%;
     display: flex;
     position: relative;
 }
-#footerp{
-    height: 100px;
-    width: 100%;
-    color: white;
-    font-family:'Ubuntu', sans-serif;
-    font-size: large;
+
+
+footer>div>ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 3%;
+    height: 150px;
+    width: 100%;
+    margin-left: 20px; 
 }
+footer>div>p{
+    text-align:start;
+    margin-left: 25%;
+    font-family:'Ubuntu', sans-serif ;
+    color: white;
+    font-size:125%;
+    font:bolder;
+}
+
+footer>div>ul>li>img{
+    height: 70px;
+    width: 70px;
+}
+footer>div{
+    margin-top: 50px;
+    margin-left: 75px;  
+}
+
+
+
+
 
 /* à retravailler
 footer>div>img{
